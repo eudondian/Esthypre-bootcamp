@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+header{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 8vh;
+
+}
+.side-bar{
+  height: 90vh;
+  background-color: rgb(231, 224, 224);
+  width: 10vw;
+  overflow: hidden;
+}
+
+main{
+  display: flex;
+  height: 90vh;
+  background-color:#f9f9f9;
+}
