@@ -7,22 +7,70 @@ body{
   font-family: 'Roboto', sans-serif;
   font-family: 'Source Sans Pro', sans-serif;
 }
-header{
-  display:flex;
+
+.nav-container{
+  display: flex;
   justify-content: space-between;
   align-items: center;
   height: 8vh;
-
 }
 .side-bar{
-  height: 90vh;
-  background-color: rgb(231, 224, 224);
-  width: 10vw;
-  overflow: hidden;
+  display: flex;
+  align-items: center;
+  height: 85vh;
 }
 
-main{
-  display: flex;
-  height: 90vh;
-  background-color:#f9f9f9;
+.dropdown {
+  font-size: 16px;
+  font-weight:lighter;  
+  border: none;
+  outline: none;
+  color: rgb(0, 0, 0);
+  margin-left: 15px;
+  float: left;
+  overflow: hidden;
+  
+  
+}    
+.dropdown-content {
+  display:none;
+  position: absolute;
+  min-width: 200px; 
+  background-color:#e5e5e5;
+  height: 300vh;
 }
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 10px 1px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  
+  
+} 
+
+img:hover {
+background-color: rgb(189, 188, 188);
+border: 30px;
+}
+
+
+
+span{
+  
+  
+  margin-left: 5px;
+  margin-top:  -100px;
+
+}
+
+.dropdown-content a:hover {
+  background-color: rgb(189, 188, 188);
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
