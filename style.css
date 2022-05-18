@@ -73,4 +73,52 @@ span{
   display: block;
 }
 
+/* Search section */
+#search-container{
+  display: flex;
+  justify-content:center
+}
+#search{
+  padding: 5px;
+  width: 600px;
+  height:50px;
+  border-radius: 4px;
+  margin-top: 5px;
+  color:rgb(78, 62, 62);
+}
+button{
+  padding: 2px;
+  width: 70px;
+  height: 50px;
+  margin: 5px -5px;
+  border-radius: 4px;
+  background-color: rgb(248, 248, 248) ;
+  
+  
+}
+#mic{
+  margin: 5px 25px;
+  font-size: 20px;
+  background-color: rgb(248, 248, 248);
+  border-radius: 80px;
+  padding: 10px;
+  color: rgb(78, 62, 62);
+
+}
+.navbar-right{
+  display:flex;
+ justify-content:space-between
+  
+  
+}
+.material-icons{
+  font-size: 30px;
+  padding: 8px;
+  cursor: pointer;
+  
+}
+hr{
+    background-color:#e5e5e5;
+    height:5px
+}
 
